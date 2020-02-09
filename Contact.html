@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="assets/fonts/material-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Contact</title>
+    </head>
+    <body style="background-image: url(assets/images/footer.jpg)" id="bg">
+        <header>
+            <div class="navbar-fixed">
+        <nav class="nav-wrapper white" >
+            <div class="container">
+                <a href="#" class="sidenav-trigger" data-target="menu"><i class="material-icons black-text">menu</i></a>
+                <a href="#!" class="brand-logo "><img src="assets/Images/logo.jpeg " style="margin:15px 0px 0px 0px; "</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="red-text" href="index.html"><b>Home</b></a></li>
+                    <li><a class="red-text" href=" index.html"><b>Be A Vendor</b></a></li>
+                    <li><a class="red-text" href="index.html"><b>About</b></a></li>
+                    <li><a class="red-text" href="index.html"><b>Products</b></a></li>
+                    <li><a class="red-text" href="Contact.html"><b>Contact</b></a></li>
+                </ul>
+            </div>
+        </div>
+            <ul class="sidenav" id="menu">
+                <li><a class="red-text" href="index.html"><b>Home</b></a></li>
+                <li><a class="red-text" href="#vendor"><b>Be A Vendor</b></a></li>
+                <li><a class="red-text" href="#About"><b>About</b></a></li>
+                <li><a class="red-text" href="#product"><b>Products</b></a></li>
+                <li><a class="red-text" href="Contact.html"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+        
+              
+        <div class="row container  darken-3">
+            <h1 class="red-text">Contact form</h1>
+            <p>Please fill in your information and send your message</p>
+<form class="col s12" method="post" data-netlify="true">
+<div class="row">
+    <div class="input-field col s6">
+        <i class="material-icons prefix" >account_circle</i>
+        <input id="first-name" type="text" class="validate" required>
+        <label for="first-name">First Name</label>
+    </div>
+    <div class="input-field col s6">
+        <input id="last_name"  type="text" class="validate" required>
+        <label for="last_name">Last Name</label>
+    </div>
+</div>
+<div class="row">
+    <div class="input-field col s6">
+            <i class="material-icons prefix" >mail</i>
+        <input  id="email" type="email" class="validate" required>
+        <label for="email">Email</label>
+    </div>
+    
+    <div class="input-field col s6 " >
+            <i class="material-icons prefix" >phone</i>
+            <input type="number" id="phone-number" class="validate" data-length="10" required>
+            <label for="phone-number">Phone Number</label>
+         </div>
+</div>
+
+<div class="row">
+   <div class="input-field col s6">
+        <i class="material-icons prefix" >location_on</i>
+       <textarea class="materialize-textarea" id="textarea1" style="margin-top: 40px;" data-length="100" ></textarea>
+       <label for="textarea1">Address</label>
+   </div>
+        </div>
+   
+
+    <div class="row">
+   
+            <div class="input-field col s6 " >
+                    <i class="material-icons prefix" >mode_edit</i>
+               <input type="text" id="subject" class="validate" required>
+               <label for="subject">Message subject</label>
+            </div>
+            
+                     </div>
+                     <div class="row">
+                            <div class="input-field col s12">
+                                    <i class="material-icons prefix" >mode_edit</i>
+                                <textarea class="materialize-textarea" id="textarea2"  style="margin-top: 40px;  "data-length="200" ></textarea>
+                                <label for="textarea2">Your Message</label>
+                            </div>
+                                 </div>
+                                 <button class="btn waves-effect eaves-light" type="submit" name="post">Submit
+                                 <i class="material-icons prefix" >send</i>
+                                 </button>
+        </div>
+</form>
+
+        </div>
+        </div>
+        <footer class="page-footer" style="background-color: rgb(3, 3, 44)" id="contact">
+            <div class="row ">
+                <div class="col l4 s12">
+                  <p class="move">Quick Links</p>
+                  <ul>
+                   <li><a  href="index.html" class="white-text move">Home</a></li>
+                   <li><a  href="#vendor" class="white-text move">Be a vendor</a></li>
+                   <li><a  href="#About" class="white-text move" >About</a></li>
+                   <li><a  href="#product" class="white-text move" >Products</a></li>
+                   <li><a class="white-text move"   href="https://form.myjotform.com/92721817250556" target="_blank">Contact</a></li>
+               </ul>
+                </div>
+                <div class="col l4 s12">
+                  <p>Follow us</p>
+                  <a href="#" class="fa fa-facebook">@marrsconsults</a><br>
+                 <a href="#" class="fa fa-twitter">@marrsconsults</a><br>
+                 <a href="#" class="fa fa-instagram" id="instagram">@marrsconsults</a>
+               </div>
+               <div class="col l4 s12 align">
+                 <div>
+                   <i class="material-icons prefix">location_on</i>
+ <span>A2-12, Suite 336, Sura Complex, Simpson Street, Lagos </span>
+ </div>
+ <div class="icon" style="margin-top: 10px;">
+     <i class="material-icons prefix">phone_iphone</i>
+      08033000409, 080162973763, 07069590691
+ </div>
+ <div class="icon" style="margin-top: 10px;">
+     <i class="material-icons prefix">language</i>
+   marrsconsults.com
+ </div>
+ <div class="icon" style="margin-top: 10px;">
+     <i class="material-icons prefix">mail</i>
+      sales@marrsconsult.com
+      
+ </div>
+ 
+               </div>
+           </footer>
+          
+     </body>
+     <script src="assets/js/jquery.js"></script>
+     <script src="assets/js/materialize.min.js"></script>
+     <script>
+     $(document).ready(function(){
+         $('.sidenav').sidenav();
+         $('.parallax').parallax();
+         $('.modal').modal();
+         $('.slider').slider({
+     width: true,
+     height: 650, // default - height : 400
+     })
+     })
+     </script>
+    </html>
